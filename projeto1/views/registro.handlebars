@@ -1,6 +1,6 @@
     <h1>Registrar-se</h1>
 
-    <form action="">
+    <form action="/add" method="POST">
         <fieldset>
             <legend>Preencha os campos para se registrar</legend>
             <br>
@@ -13,15 +13,15 @@
             <label for="sexo">Sexo:</label>
             <br>
             <label for="masculino">Masculino</label>
-            <input type="radio" name="sexo" id="masculino">
+            <input type="radio" name="sexo" id="masculino" value="masculino">
             <label for="feminino">Feminino</label>
-            <input type="radio" name="sexo" id="feminino">
+            <input type="radio" name="sexo" id="feminino" value="feminino">
             <br><br>
             <label for="senha">Senha:</label>
             <input type="password" name="senha" id="senha">
             <br><br>
-            <input type="button" value="Registrar" onclick="">
+            <input type="submit" value="Registrar">
             <br><br>
-            <a href="index.html">Voltar para tela de login</a>
+            <a href="/html/index.html">Voltar para tela de login</a>
         </fieldset>
     </form>
